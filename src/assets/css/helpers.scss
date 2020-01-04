@@ -1,0 +1,93 @@
+
+/* Fonts */
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(../fonts/Raleway-Regular.ttf)}
+@font-face {
+    font-family: PoiretOne-Regular;
+    src: url(../fonts/PoiretOne-Regular.ttf)}
+@font-face {
+    font-family: Zeyada-Regular;
+    src: url(../fonts/Zeyada-Regular.ttf)}
+@font-face {
+    font-family: LeckerliOne-Regular;
+    src: url(../fonts/LeckerliOne-Regular.ttf)}
+@font-face {
+    font-family: BerkshireSwash-Regular;
+    src: url(../fonts/BerkshireSwash-Regular.ttf)}
+@font-face {
+    font-family: Lato_bold;
+    src: url(../fonts/Lato_Bold.ttf)}
+@font-face {
+    font-family: Lato_regular;
+    src: url(../fonts/Lato_Regular.ttf)}
+@font-face {
+    font-family: EmilysCandy;
+    src: url(../fonts/EmilysCandy-Regular.ttf)}
+@font-face {
+    font-family: PontanoSans-Regular;
+    src: url(../fonts/PontanoSans-Regular.ttf)}
+@font-face {
+    font-family: Acme-Regular;
+    src: url(../fonts/Acme-Regular.ttf)}
+@font-face {
+    font-family: FingerPaint-Regular;
+    src: url(../fonts/FingerPaint-Regular.ttf)}
+
+/* Grid */
+.grid {
+    display: grid;
+    &.justify-center {
+        justify-content: center;
+    }
+    &.align-center {
+        align-items: center;
+    }
+}
+
+/* Flex */
+
+.flex {
+    display: flex;
+    &.row {
+        flex-direction: row;
+    }
+    &.column {
+        flex-direction: column;
+    }
+    &.wrap {
+        flex-wrap: wrap;
+    }
+    &.justify-center {
+        justify-content: center;
+    }
+    &.align-center {
+        align-items: center;
+    }
+    &.space-between {
+        justify-content: space-between;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #00000000;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #fed136;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(172, 172, 172);
+  }
