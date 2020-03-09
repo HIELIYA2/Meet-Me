@@ -43,6 +43,11 @@ export default {
           title: "appsus",
           detail: "App that combines mail and notes",
           href: "https://hieliya2.github.io/sprint-3"
+        },
+        {
+          title: "borsood",
+          detail: "תוכנה לשינון מונחים ",
+          href: "/"
         }
       ]
     };
