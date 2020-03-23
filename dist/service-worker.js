@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.fcd977e57bb07fe17f8095af53ff677b.js"
+  "/precache-manifest.88091adae4c7b0a49aeb0f8682eae836.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "meet-me"});
