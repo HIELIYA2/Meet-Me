@@ -47,7 +47,7 @@ export default {
         {
           title: "borsood",
           detail: "תוכנה לשינון מונחים ",
-          href: "/"
+          href: "https://borsood.herokuapp.com/"
         }
       ]
     };
