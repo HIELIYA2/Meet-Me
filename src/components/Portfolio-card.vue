@@ -16,13 +16,13 @@ export default {
   props: {
     href: String,
     title: String,
-    detail: String
+    detail: String,
   },
   methods: {
     getImgUrl(img) {
       return require("../assets/images/portfolio/" + img + ".png");
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -42,6 +42,11 @@ export default {
     font-weight: bold;
   }
   .Detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    max-height: 35px;
     font-size: 17px;
     padding-bottom: 50px;
   }
