@@ -24,7 +24,7 @@ export default {
   name: "Portfolio",
   props: {},
   components: {
-    portfolioCard
+    portfolioCard,
   },
   data() {
     return {
@@ -32,26 +32,32 @@ export default {
         {
           title: "bestask",
           detail: "Project management app",
-          href: "https://bestaskmanager.herokuapp.com"
+          href: "https://bestaskmanager.herokuapp.com",
         },
         {
           title: "meme",
           detail: "Meme jenerator",
-          href: "https://hieliya2.github.io/meme-generator/"
+          href: "https://hieliya2.github.io/meme-generator/",
         },
         {
           title: "appsus",
           detail: "App that combines mail and notes",
-          href: "https://hieliya2.github.io/sprint-3"
+          href: "https://hieliya2.github.io/sprint-3",
         },
         {
           title: "borsood",
           detail: "תוכנה לשינון מונחים ",
-          href: "https://borsood.herokuapp.com/"
-        }
-      ]
+          href: "https://borsood.herokuapp.com/",
+        },
+        {
+          title: "get-bus",
+          detail:
+            "Customer and supplier transportation order management system",
+          href: "https://get-bus.herokuapp.com/",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
