@@ -45,13 +45,13 @@ export default {
           href: "https://hieliya2.github.io/sprint-3"
         },
         {
-          title: "borsood (W.I.P)",
-          detail: "תוכנה לשינון מונחים ",
+          title: "borsood",
+          detail: "תוכנה לשינון מונחים  (W.I.P)",
           href: "https://borsood.herokuapp.com/"
         },
         {
-          title: "get-bus  (W.I.P)",
-          detail: "Customer and supplier transportation order management system",
+          title: "get-bus",
+          detail: "Customer and supplier transportation order management system (W.I.P)",
           href: "https://get-bus.herokuapp.com/"
         }
       ]
