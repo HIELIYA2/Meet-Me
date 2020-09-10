@@ -35,7 +35,7 @@
 
     <section class="Self-detail">
       <p>
-        with almost 2 years of experience as a web application developer. A team player is eager to
+        With almost 2 years of experience as a web application developer. A team player is eager to
         find the next opportunity and notice the details. Currently working as a freelancer,
         Developing an application that helps to memories patterns
       </p>
